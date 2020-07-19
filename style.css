@@ -1,8 +1,12 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,600&display=swap');
-
 /* global */
+html {
+    scroll-behavior: smooth;
+}
 body{
+    margin: 0;
+    padding: 0;
    font-family: 'Poppins',sans-serif;
 }
 p{
@@ -20,11 +24,7 @@ h1{
     -moz-border-radius: 70px;
     -ms-border-radius: 70px;
     -o-border-radius: 70px;
-    transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
+    
 }
 .all-btn-dsn:hover{
     background-image: linear-gradient(to left bottom, #b93ca3, #d72e8c, #eb2a70, #f43851, #f4512f);   
