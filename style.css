@@ -6,7 +6,7 @@ body{
    font-family: 'Poppins',sans-serif;
 }
 p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
 }
 h1,{
@@ -95,7 +95,7 @@ h1,{
 /* courses */
 .courses .card{
     border: none;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 5px 5px 10px gray;
     border-radius: 21px;
     -webkit-border-radius: 21px;
     -moz-border-radius: 21px;
@@ -105,6 +105,20 @@ h1,{
 .courses h3{
     font-size: 24px;
 }
+
+/* Testimonial */
+.testimonial .tes-paragraph{
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
 
 /* Media Query */
 @media (max-width: 767px){
