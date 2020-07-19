@@ -1,0 +1,114 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,600&display=swap');
+
+/* global */
+body{
+   font-family: 'Poppins',sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+}
+h1,{
+    font-weight: bolder;
+}
+.all-btn-dsn{
+    background-image: linear-gradient(to right bottom, #600c96, #a50082, #ce236c, #e4555b, #ed8355);
+    border: none;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+}
+.all-btn-dsn:hover{
+    background-image: linear-gradient(to left bottom, #b93ca3, #d72e8c, #eb2a70, #f43851, #f4512f);   
+}
+/* head corner */
+.header {
+    /* width: 1440px;
+    height: 576px; */
+    background: #F0FFF0;
+}
+.navbar .logo{
+    max-width: 200px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+}
+.design-head-btn{
+    background: #21B573;
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+}
+.design-head-btn:hover{
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+/* header main */
+.header_main .he-big{
+    font-size: 48px;
+    line-height: 60px;
+}
+.header_main .he-color{
+    color: #851196
+}
+
+/* specification */
+.specification .card {
+    border: none;
+    box-shadow: 5px 5px 15px #ddd;
+    padding-top: 25px;
+}
+.specification .card:hover {
+    box-shadow: 5px 5px 15px gray;
+}
+.specification .card img{
+    max-width: 80px;
+    max-height: 85px;
+}
+.specification .card img {
+    margin: 0 auto;
+}
+.specification .card .card-title{
+    font-size: 24px;
+}
+
+/* courses */
+.courses .card{
+    border: none;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+.courses h3{
+    font-size: 24px;
+}
+
+/* Media Query */
+@media (max-width: 767px){
+    .small-devi-top{
+        margin-top: 25px;
+    }
+}
